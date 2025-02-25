@@ -61,9 +61,9 @@ let proxyConfig = store.get("proxyConfig") || {
 };
 
 const globalShortcutMapping = {
-  "CmdOrCtrl+Alt+Left": "left",
-  "CmdOrCtrl+Alt+Right": "right",
-  "CmdOrCtrl+Alt+Space": "space",
+  "Alt+A": "left",
+  "Alt+S": "right",
+  "Alt+D": "space",
   MediaNextTrack: "right",
   MediaPreviousTrack: "left",
   MediaPlayPause: "space",
